@@ -1,0 +1,2438 @@
+{
+  "B": {
+    "ok": true,
+    "B_mm": 8.196368325758838,
+    "latency_ms": 0.0,
+    "latency_unconstrained_ms": -4.038470644549235,
+    "rms_ms": 3.3396779009193827,
+    "n": 15,
+    "points": [
+      [
+        9.208027771819616,
+        0.0742754230814171
+      ],
+      [
+        50.65008820602088,
+        0.41967135714003234
+      ],
+      [
+        50.893969058961375,
+        0.4194998558195948
+      ],
+      [
+        12.933745890040882,
+        0.10579818398764473
+      ],
+      [
+        34.80952669196995,
+        0.28321633957966696
+      ],
+      [
+        50.84030892830924,
+        0.4213094827318855
+      ],
+      [
+        12.597077128884846,
+        0.10334695130950422
+      ],
+      [
+        12.624494457122637,
+        0.10467872277877177
+      ],
+      [
+        21.235224347765325,
+        0.16869315692019882
+      ],
+      [
+        34.794510227948194,
+        0.2830059135594638
+      ],
+      [
+        9.448751144373091,
+        0.07380961559101706
+      ],
+      [
+        34.60523707108223,
+        0.28235328486698563
+      ],
+      [
+        21.338573942921354,
+        0.16814676377907745
+      ],
+      [
+        9.284605164430104,
+        0.07412527298583882
+      ],
+      [
+        21.170891546353232,
+        0.1696601663788897
+      ]
+    ],
+    "B_mm_slow": 8.144150112754241,
+    "noteoff_depth_mm": 5.057217906119601,
+    "noteoff_depth_std_mm": 0.04181084745064078
+  },
+  "A": {
+    "ok": true,
+    "A_mm": 4.90625,
+    "A_lo_mm": 4.875,
+    "A_hi_mm": 4.9375,
+    "consistent": true,
+    "probes": [
+      [
+        0.5,
+        "before",
+        60
+      ],
+      [
+        1.5,
+        "before",
+        63
+      ],
+      [
+        2.5,
+        "before",
+        65
+      ],
+      [
+        3.5,
+        "before",
+        61
+      ],
+      [
+        4.5,
+        "before",
+        57
+      ],
+      [
+        4.75,
+        "before",
+        52
+      ],
+      [
+        4.875,
+        "before",
+        48
+      ],
+      [
+        4.875,
+        "before",
+        49
+      ],
+      [
+        4.9375,
+        "after",
+        17
+      ],
+      [
+        4.9375,
+        "after",
+        17
+      ],
+      [
+        5.0,
+        "after",
+        7
+      ],
+      [
+        5.5,
+        "after",
+        1
+      ]
+    ]
+  },
+  "A_source": "pause probe",
+  "drift_mm_vs_phase_b": {
+    "b2": -0.1180943437175501
+  },
+  "mapping": {
+    "n_points": 56,
+    "n_used": 49,
+    "n_accelerating": 0,
+    "n_launched": 0,
+    "n_compressed": 1,
+    "n_braked": 0,
+    "latency_from_fast_ms": 5.0990281463641445,
+    "n_velocity_floor": 6,
+    "points": [
+      {
+        "trial_id": 0,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.120",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 32,
+        "v_mean_AB": 0.11371300688995567,
+        "v_at_B": 0.12666318184049588,
+        "v_at_on": 0.12789603292043822,
+        "dt_finger_ms": 27.247248941421276,
+        "dt_midi_ms": 30.33780097393901,
+        "depth_at_on_mm": 8.599217168025223,
+        "lead_mm": -0.4028488422663842,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 27.247248941421276,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 42.75018299529245,
+        "finger_dt_over_implied": 0.6373598200602247
+      },
+      {
+        "trial_id": 1,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.020",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 18,
+        "v_mean_AB": 0.0179592406251943,
+        "v_at_B": 0.020015599581113774,
+        "v_at_on": 0.020015599581113774,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 160.3759381105192,
+        "depth_at_on_mm": 8.139081562704272,
+        "lead_mm": 0.05728676305456759,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 160.3759381105192,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 122.86678332070787,
+        "finger_dt_over_implied": 1.3052831186432596
+      },
+      {
+        "trial_id": 2,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.020",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 18,
+        "v_mean_AB": 0.02011403226311554,
+        "v_at_B": -0.02645912195262349,
+        "v_at_on": 0.020395080626127954,
+        "dt_finger_ms": 164.9294216731505,
+        "dt_midi_ms": 160.13034068237175,
+        "depth_at_on_mm": 8.168571773113023,
+        "lead_mm": 0.027796552645816333,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 164.9294216731505,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 122.86678332070787,
+        "finger_dt_over_implied": 1.3423434488607908
+      },
+      {
+        "trial_id": 3,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.080",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 33,
+        "v_mean_AB": 0.08044583504695821,
+        "v_at_B": 0.07783078348765057,
+        "v_at_on": 0.07749393512465935,
+        "dt_finger_ms": 41.24572303771856,
+        "dt_midi_ms": 40.613956491142744,
+        "depth_at_on_mm": 8.15261713883657,
+        "lead_mm": 0.04375118692226919,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 41.24572303771856,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 40.40328165840106,
+        "finger_dt_over_implied": 1.0208508156946288
+      },
+      {
+        "trial_id": 4,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.030",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 22,
+        "v_mean_AB": 0.02989076785739398,
+        "v_at_B": -0.01716437664431618,
+        "v_at_on": 0.029304185475608764,
+        "dt_finger_ms": 113.43844172006357,
+        "dt_midi_ms": 107.71780789946206,
+        "depth_at_on_mm": 8.130097650181112,
+        "lead_mm": 0.06627067557772766,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 113.43844172006357,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 85.02054986083338,
+        "finger_dt_over_implied": 1.3342473308599656
+      },
+      {
+        "trial_id": 5,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.020",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 18,
+        "v_mean_AB": 0.01810975642116078,
+        "v_at_B": 0.01928859907635831,
+        "v_at_on": 0.01927765398194283,
+        "dt_finger_ms": 162.1561556312372,
+        "dt_midi_ms": 162.01625380199403,
+        "depth_at_on_mm": 8.194374843906857,
+        "lead_mm": 0.0019934818519824066,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 162.1561556312372,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 122.86678332070787,
+        "finger_dt_over_implied": 1.31977212431757
+      },
+      {
+        "trial_id": 6,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.080",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 33,
+        "v_mean_AB": 0.08046669667126698,
+        "v_at_B": 0.07788404513732888,
+        "v_at_on": 0.07737909774207018,
+        "dt_finger_ms": 41.11423260474112,
+        "dt_midi_ms": 40.319701063708635,
+        "depth_at_on_mm": 8.139605823183969,
+        "lead_mm": 0.05676250257487074,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 41.11423260474112,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 40.40328165840106,
+        "finger_dt_over_implied": 1.017596366363281
+      },
+      {
+        "trial_id": 7,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.080",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 33,
+        "v_mean_AB": 0.08051568089734931,
+        "v_at_B": 0.07794059242819751,
+        "v_at_on": 0.07783060787109296,
+        "dt_finger_ms": 41.211021511116996,
+        "dt_midi_ms": 41.024048910912825,
+        "depth_at_on_mm": 8.179927466554643,
+        "lead_mm": 0.01644085920419515,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 41.211021511116996,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 40.40328165840106,
+        "finger_dt_over_implied": 1.019991936782392
+      },
+      {
+        "trial_id": 8,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.050",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 28,
+        "v_mean_AB": 0.048372022342393836,
+        "v_at_B": -0.014098503968556546,
+        "v_at_on": 0.048149410962411134,
+        "dt_finger_ms": 70.0772853451781,
+        "dt_midi_ms": 66.24061723050545,
+        "depth_at_on_mm": 8.090129600020155,
+        "lead_mm": 0.10623872573868424,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 70.0772853451781,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 54.61935295384441,
+        "finger_dt_over_implied": 1.2830120013394568
+      },
+      {
+        "trial_id": 9,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.030",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 22,
+        "v_mean_AB": 0.02982588548495414,
+        "v_at_B": -0.055939819721051734,
+        "v_at_on": 0.029071411572263332,
+        "dt_finger_ms": 115.80275313463062,
+        "dt_midi_ms": 106.3976768127759,
+        "depth_at_on_mm": 8.133230302515056,
+        "lead_mm": 0.06313802324378268,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 115.80275313463062,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 85.02054986083338,
+        "finger_dt_over_implied": 1.3620560361487117
+      },
+      {
+        "trial_id": 10,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.120",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 32,
+        "v_mean_AB": 0.11440981881266879,
+        "v_at_B": 0.12560909509865548,
+        "v_at_on": 0.12711341718128652,
+        "dt_finger_ms": 26.699211299273884,
+        "dt_midi_ms": 28.65561220460222,
+        "depth_at_on_mm": 8.624020229530517,
+        "lead_mm": -0.4276519037716784,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 26.699211299273884,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 42.75018299529245,
+        "finger_dt_over_implied": 0.6245402809670766
+      },
+      {
+        "trial_id": 11,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.030",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 22,
+        "v_mean_AB": 0.029834254791669828,
+        "v_at_B": -0.04495106921566837,
+        "v_at_on": 0.02957028317601389,
+        "dt_finger_ms": 114.64329439695575,
+        "dt_midi_ms": 106.81840701727197,
+        "depth_at_on_mm": 8.149218662804211,
+        "lead_mm": 0.047149662954628496,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 114.64329439695575,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 85.02054986083338,
+        "finger_dt_over_implied": 1.3484186421354674
+      },
+      {
+        "trial_id": 12,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.050",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 28,
+        "v_mean_AB": 0.048574532843376206,
+        "v_at_B": 0.048879422027703956,
+        "v_at_on": 0.04883728419649417,
+        "dt_finger_ms": 65.05964132884401,
+        "dt_midi_ms": 64.97777700860752,
+        "depth_at_on_mm": 8.191116984302997,
+        "lead_mm": 0.005251341455842287,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 65.05964132884401,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 54.61935295384441,
+        "finger_dt_over_implied": 1.1911463210452542
+      },
+      {
+        "trial_id": 13,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.120",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 32,
+        "v_mean_AB": 0.1133898537273597,
+        "v_at_B": 0.12486017379501962,
+        "v_at_on": 0.12624820175381196,
+        "dt_finger_ms": 27.686395507771522,
+        "dt_midi_ms": 29.745332882157527,
+        "depth_at_on_mm": 8.563978240185321,
+        "lead_mm": -0.3676099144264821,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 27.686395507771522,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 42.75018299529245,
+        "finger_dt_over_implied": 0.6476322103889072
+      },
+      {
+        "trial_id": 14,
+        "phase": "b",
+        "kind": "const",
+        "label": "const v=0.050",
+        "shape": null,
+        "target_speed": null,
+        "how": null,
+        "velocity": 28,
+        "v_mean_AB": 0.048356079670315404,
+        "v_at_B": 0.04840959175497094,
+        "v_at_on": 0.04853929887839406,
+        "dt_finger_ms": 66.95906413369812,
+        "dt_midi_ms": 67.47707974500372,
+        "depth_at_on_mm": 8.219610773393292,
+        "lead_mm": -0.023242447634453517,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 66.95906413369812,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 54.61935295384441,
+        "finger_dt_over_implied": 1.2259219582897891
+      },
+      {
+        "trial_id": 27,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.020",
+        "shape": null,
+        "target_speed": 0.02,
+        "how": "const",
+        "velocity": 18,
+        "v_mean_AB": 0.01991473566719644,
+        "v_at_B": 0.019242934868396042,
+        "v_at_on": 0.019397973518626533,
+        "dt_finger_ms": 164.80087132003973,
+        "dt_midi_ms": 160.80780879565282,
+        "depth_at_on_mm": 8.117865689129646,
+        "lead_mm": 0.0785026366291932,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 164.80087132003973,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 122.86678332070787,
+        "finger_dt_over_implied": 1.3412971908760334
+      },
+      {
+        "trial_id": 28,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.005",
+        "shape": null,
+        "target_speed": 0.005,
+        "how": "const",
+        "velocity": 1,
+        "v_mean_AB": 0.00508872061829531,
+        "v_at_B": 0.005122347161052707,
+        "v_at_on": 0.005122347161052707,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 654.7663722194557,
+        "depth_at_on_mm": 8.134335395087678,
+        "lead_mm": 0.06203293067116172,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 654.7663722194557,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 24701.060293874976,
+        "finger_dt_over_implied": 0.026507622119436528
+      },
+      {
+        "trial_id": 29,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.005",
+        "shape": null,
+        "target_speed": 0.005,
+        "how": "const",
+        "velocity": 1,
+        "v_mean_AB": 0.005142842102504363,
+        "v_at_B": 0.005272296396003688,
+        "v_at_on": 0.005272296396003688,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 646.1641792266164,
+        "depth_at_on_mm": 8.133249642651258,
+        "lead_mm": 0.06311868310758181,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 646.1641792266164,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 24701.060293874976,
+        "finger_dt_over_implied": 0.026159370146019326
+      },
+      {
+        "trial_id": 30,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.35 a=13",
+        "shape": null,
+        "target_speed": 0.35,
+        "how": "kick a=13",
+        "velocity": 75,
+        "v_mean_AB": 0.367303908318934,
+        "v_at_B": 0.23813349499611128,
+        "v_at_on": 0.19058243301151448,
+        "dt_finger_ms": 9.460643897909904,
+        "dt_midi_ms": 12.685165558650624,
+        "depth_at_on_mm": 9.318733762382895,
+        "lead_mm": -1.1223654366240547,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 9.460643897909904,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 8.957631387741998,
+        "finger_dt_over_implied": 1.0561546337859191
+      },
+      {
+        "trial_id": 31,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.020",
+        "shape": null,
+        "target_speed": 0.02,
+        "how": "const",
+        "velocity": 18,
+        "v_mean_AB": 0.019875018284653666,
+        "v_at_B": 0.019465269028844254,
+        "v_at_on": 0.019843109618176126,
+        "dt_finger_ms": 163.49481266297516,
+        "dt_midi_ms": 160.74418815696845,
+        "depth_at_on_mm": 8.140037712530864,
+        "lead_mm": 0.05633061322797561,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 163.49481266297516,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 122.86678332070787,
+        "finger_dt_over_implied": 1.3306673149912267
+      },
+      {
+        "trial_id": 32,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.25 a=7",
+        "shape": null,
+        "target_speed": 0.25,
+        "how": "kick a=7",
+        "velocity": 61,
+        "v_mean_AB": 0.21740579394405968,
+        "v_at_B": 0.1959984102948888,
+        "v_at_on": 0.2100886227497155,
+        "dt_finger_ms": 13.161715076421387,
+        "dt_midi_ms": 14.5386199146742,
+        "depth_at_on_mm": 8.57442137491564,
+        "lead_mm": -0.3780530491568016,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 13.161715076421387,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 13.086998985181213,
+        "finger_dt_over_implied": 1.005709184460454
+      },
+      {
+        "trial_id": 33,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.010",
+        "shape": null,
+        "target_speed": 0.01,
+        "how": "const",
+        "velocity": 1,
+        "v_mean_AB": 0.009987235551439757,
+        "v_at_B": 0.009488563827936426,
+        "v_at_on": 0.009488563827936426,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 320.7171757348988,
+        "depth_at_on_mm": 8.122712896619184,
+        "lead_mm": 0.07365542913965496,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 320.7171757348988,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 24701.060293874976,
+        "finger_dt_over_implied": 0.01298394368173846
+      },
+      {
+        "trial_id": 34,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.040",
+        "shape": null,
+        "target_speed": 0.04,
+        "how": "const",
+        "velocity": 24,
+        "v_mean_AB": 0.04026644474810308,
+        "v_at_B": 0.03959418314722059,
+        "v_at_on": 0.039461074537671434,
+        "dt_finger_ms": 81.0336979047861,
+        "dt_midi_ms": 78.58303284592694,
+        "depth_at_on_mm": 8.098265196991216,
+        "lead_mm": 0.09810312876762373,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 81.0336979047861,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 72.47466778815341,
+        "finger_dt_over_implied": 1.11809685201526
+      },
+      {
+        "trial_id": 35,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.04->0.15 a=2",
+        "shape": null,
+        "target_speed": 0.15,
+        "how": "kick a=2",
+        "velocity": 44,
+        "v_mean_AB": 0.14172711503299087,
+        "v_at_B": 0.15386338174105468,
+        "v_at_on": 0.15387923621968966,
+        "dt_finger_ms": 22.440284214098938,
+        "dt_midi_ms": 21.382664930570172,
+        "depth_at_on_mm": 8.051316185321252,
+        "lead_mm": 0.14505214043758832,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 22.440284214098938,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 23.83243327938816,
+        "finger_dt_over_implied": 0.9415859451291009
+      },
+      {
+        "trial_id": 36,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.45 a=22",
+        "shape": null,
+        "target_speed": 0.45,
+        "how": "kick a=22",
+        "velocity": 84,
+        "v_mean_AB": 0.4487351222900482,
+        "v_at_B": 0.4659480527988616,
+        "v_at_on": 0.22906850044798513,
+        "dt_finger_ms": 7.599626660521608,
+        "dt_midi_ms": 13.006735804083291,
+        "depth_at_on_mm": 10.553687982090649,
+        "lead_mm": -2.35731965633181,
+        "stop_depth_mm": 8.8,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": true,
+        "dt_ms": 7.599626660521608,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 7.275850370400712,
+        "finger_dt_over_implied": 1.0445001303817445
+      },
+      {
+        "trial_id": 37,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.04->0.15 a=2",
+        "shape": null,
+        "target_speed": 0.15,
+        "how": "kick a=2",
+        "velocity": 44,
+        "v_mean_AB": 0.13947530807406253,
+        "v_at_B": 0.1556576279748813,
+        "v_at_on": 0.1552710881101413,
+        "dt_finger_ms": 22.253973857004894,
+        "dt_midi_ms": 21.865131493541412,
+        "depth_at_on_mm": 8.13921382028381,
+        "lead_mm": 0.057154505475028386,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 22.253973857004894,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 23.83243327938816,
+        "finger_dt_over_implied": 0.933768432124452
+      },
+      {
+        "trial_id": 38,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.25 a=7",
+        "shape": null,
+        "target_speed": 0.25,
+        "how": "kick a=7",
+        "velocity": 61,
+        "v_mean_AB": 0.21842557065018056,
+        "v_at_B": 0.19584131052694276,
+        "v_at_on": 0.20184226127216912,
+        "dt_finger_ms": 13.110650259477552,
+        "dt_midi_ms": 13.738911340624327,
+        "depth_at_on_mm": 8.365295196386338,
+        "lead_mm": -0.16892687062749873,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 13.110650259477552,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 13.086998985181213,
+        "finger_dt_over_implied": 1.0018072343646638
+      },
+      {
+        "trial_id": 39,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.35 a=13",
+        "shape": null,
+        "target_speed": 0.35,
+        "how": "kick a=13",
+        "velocity": 69,
+        "v_mean_AB": 0.3394124395177055,
+        "v_at_B": 0.2823960459763832,
+        "v_at_on": 0.2360784431509851,
+        "dt_finger_ms": 8.70391465650755,
+        "dt_midi_ms": 11.862708724947879,
+        "depth_at_on_mm": 9.645481834652392,
+        "lead_mm": -1.4491135088935525,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 8.70391465650755,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 10.438506630765058,
+        "finger_dt_over_implied": 0.8338275736545299
+      },
+      {
+        "trial_id": 40,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.45 a=22",
+        "shape": null,
+        "target_speed": 0.45,
+        "how": "kick a=22",
+        "velocity": 84,
+        "v_mean_AB": 0.4276238361509903,
+        "v_at_B": 0.5075193372440183,
+        "v_at_on": 0.2785347453749364,
+        "dt_finger_ms": 7.74843725230312,
+        "dt_midi_ms": 10.178437591093825,
+        "depth_at_on_mm": 10.176203923213723,
+        "lead_mm": -1.9798355974548834,
+        "stop_depth_mm": 10.1,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 7.74843725230312,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 7.275850370400712,
+        "finger_dt_over_implied": 1.0649528038433782
+      },
+      {
+        "trial_id": 41,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.02->0.08 a=2",
+        "shape": null,
+        "target_speed": 0.08,
+        "how": "kick a=2",
+        "velocity": 32,
+        "v_mean_AB": 0.078960078568889,
+        "v_at_B": 0.08114752474687724,
+        "v_at_on": 0.08087434715097336,
+        "dt_finger_ms": 39.593552970472956,
+        "dt_midi_ms": 38.90367590429378,
+        "depth_at_on_mm": 8.138692983735382,
+        "lead_mm": 0.05767534202345652,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 39.593552970472956,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 42.75018299529245,
+        "finger_dt_over_implied": 0.9261610172483451
+      },
+      {
+        "trial_id": 42,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.010",
+        "shape": null,
+        "target_speed": 0.01,
+        "how": "const",
+        "velocity": 1,
+        "v_mean_AB": 0.009967797206879936,
+        "v_at_B": 0.009795520371686899,
+        "v_at_on": 0.009499451599005622,
+        "dt_finger_ms": 325.31582371666445,
+        "dt_midi_ms": 320.03435607475694,
+        "depth_at_on_mm": 8.085700275385902,
+        "lead_mm": 0.11066805037293799,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 325.31582371666445,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 24701.060293874976,
+        "finger_dt_over_implied": 0.01317011577018545
+      },
+      {
+        "trial_id": 43,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.02->0.08 a=2",
+        "shape": null,
+        "target_speed": 0.08,
+        "how": "kick a=2",
+        "velocity": 32,
+        "v_mean_AB": 0.07891800529608844,
+        "v_at_B": 0.0807111098440413,
+        "v_at_on": 0.08072538316591696,
+        "dt_finger_ms": 41.418704837269615,
+        "dt_midi_ms": 40.45256058088853,
+        "depth_at_on_mm": 8.124271805930102,
+        "lead_mm": 0.072096519828738,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 41.418704837269615,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 42.75018299529245,
+        "finger_dt_over_implied": 0.9688544454144337
+      },
+      {
+        "trial_id": 44,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.040",
+        "shape": null,
+        "target_speed": 0.04,
+        "how": "const",
+        "velocity": 24,
+        "v_mean_AB": 0.040174483115061554,
+        "v_at_B": 0.03997900809980657,
+        "v_at_on": 0.0397645697905797,
+        "dt_finger_ms": 79.3174890895898,
+        "dt_midi_ms": 77.78545732799103,
+        "depth_at_on_mm": 8.11774222431198,
+        "lead_mm": 0.0786261014468579,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 79.3174890895898,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 72.47466778815341,
+        "finger_dt_over_implied": 1.0944167322220537
+      },
+      {
+        "trial_id": 45,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.40 a=17",
+        "shape": null,
+        "target_speed": 0.3969,
+        "how": "kick a=17",
+        "velocity": 84,
+        "v_mean_AB": 0.37670489582373046,
+        "v_at_B": 0.32996885291890293,
+        "v_at_on": 0.22471047376258568,
+        "dt_finger_ms": 8.47321235050913,
+        "dt_midi_ms": 10.947459857561626,
+        "depth_at_on_mm": 9.131752713105094,
+        "lead_mm": -0.935384387346255,
+        "stop_depth_mm": 9.5,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 8.47321235050913,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 7.275850370400712,
+        "finger_dt_over_implied": 1.1645666030983088
+      },
+      {
+        "trial_id": 46,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.30 a=9",
+        "shape": null,
+        "target_speed": 0.2958,
+        "how": "kick a=9",
+        "velocity": 69,
+        "v_mean_AB": 0.26664839257414413,
+        "v_at_B": 0.20621475220063026,
+        "v_at_on": 0.20639703641778578,
+        "dt_finger_ms": 11.194990718649933,
+        "dt_midi_ms": 11.353056186635513,
+        "depth_at_on_mm": 8.247039866102243,
+        "lead_mm": -0.0506715403434041,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 11.194990718649933,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 10.438506630765058,
+        "finger_dt_over_implied": 1.0724705280787306
+      },
+      {
+        "trial_id": 47,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.30 a=9",
+        "shape": null,
+        "target_speed": 0.2958,
+        "how": "kick a=9",
+        "velocity": 69,
+        "v_mean_AB": 0.26842493509386967,
+        "v_at_B": 0.248467891961177,
+        "v_at_on": 0.2531302709307221,
+        "dt_finger_ms": 11.334605074807769,
+        "dt_midi_ms": 11.185786213900428,
+        "depth_at_on_mm": 8.150933887969638,
+        "lead_mm": 0.04543443778920117,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 11.334605074807769,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 10.438506630765058,
+        "finger_dt_over_implied": 1.0858454638905597
+      },
+      {
+        "trial_id": 48,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.19 a=4",
+        "shape": null,
+        "target_speed": 0.1936,
+        "how": "kick a=4",
+        "velocity": 53,
+        "v_mean_AB": 0.17912495319663524,
+        "v_at_B": 0.17856678584519686,
+        "v_at_on": 0.1749659128196774,
+        "dt_finger_ms": 16.094650727609405,
+        "dt_midi_ms": 14.82051526545547,
+        "depth_at_on_mm": 7.955830335352097,
+        "lead_mm": 0.24053799040674173,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 16.094650727609405,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 16.938193673038278,
+        "finger_dt_over_implied": 0.9501987660719927
+      },
+      {
+        "trial_id": 49,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.014",
+        "shape": null,
+        "target_speed": 0.0141,
+        "how": "const",
+        "velocity": 12,
+        "v_mean_AB": 0.013945773232118102,
+        "v_at_B": 0.0018849627401560445,
+        "v_at_on": 0.013268949411646544,
+        "dt_finger_ms": 233.71698393384577,
+        "dt_midi_ms": 227.52001521803322,
+        "depth_at_on_mm": 8.11077223971565,
+        "lead_mm": 0.08559608604318848,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 233.71698393384577,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 258.54834183713814,
+        "finger_dt_over_implied": 0.9039585490015098
+      },
+      {
+        "trial_id": 50,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.03->0.11 a=2",
+        "shape": null,
+        "target_speed": 0.1095,
+        "how": "kick a=2",
+        "velocity": 35,
+        "v_mean_AB": 0.10739552133600445,
+        "v_at_B": 0.10494338030722541,
+        "v_at_on": 0.10531644795153425,
+        "dt_finger_ms": 29.464982835634146,
+        "dt_midi_ms": 29.99473185991519,
+        "depth_at_on_mm": 8.247785896533257,
+        "lead_mm": -0.051417570774417096,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 29.464982835634146,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 36.26834928549925,
+        "finger_dt_over_implied": 0.8124158781997499
+      },
+      {
+        "trial_id": 51,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.03->0.11 a=2",
+        "shape": null,
+        "target_speed": 0.1095,
+        "how": "kick a=2",
+        "velocity": 35,
+        "v_mean_AB": 0.10765216723008302,
+        "v_at_B": 0.10481291822726864,
+        "v_at_on": 0.10537419297037191,
+        "dt_finger_ms": 29.16940765499021,
+        "dt_midi_ms": 30.516791019181255,
+        "depth_at_on_mm": 8.3321690593875,
+        "lead_mm": -0.13580073362866146,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 29.16940765499021,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 36.26834928549925,
+        "finger_dt_over_implied": 0.8042662053729772
+      },
+      {
+        "trial_id": 52,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.40 a=17",
+        "shape": null,
+        "target_speed": 0.3969,
+        "how": "kick a=17",
+        "velocity": 84,
+        "v_mean_AB": 0.38314592978054396,
+        "v_at_B": 0.33854089969749773,
+        "v_at_on": 0.20372417892832675,
+        "dt_finger_ms": 8.450306671875296,
+        "dt_midi_ms": 12.501539473305456,
+        "depth_at_on_mm": 9.713519153655612,
+        "lead_mm": -1.5171508278967738,
+        "stop_depth_mm": 9.3,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 8.450306671875296,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 7.275850370400712,
+        "finger_dt_over_implied": 1.16141842419581
+      },
+      {
+        "trial_id": 53,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.014",
+        "shape": null,
+        "target_speed": 0.0141,
+        "how": "const",
+        "velocity": 12,
+        "v_mean_AB": 0.01360524138452935,
+        "v_at_B": 0.013422520784041884,
+        "v_at_on": 0.013422520784041884,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 226.8105567964085,
+        "depth_at_on_mm": 8.117266627383676,
+        "lead_mm": 0.07910169837516308,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 226.8105567964085,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 258.54834183713814,
+        "finger_dt_over_implied": 0.8772462247670435
+      },
+      {
+        "trial_id": 54,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.19 a=4",
+        "shape": null,
+        "target_speed": 0.1936,
+        "how": "kick a=4",
+        "velocity": 54,
+        "v_mean_AB": 0.17797898332625772,
+        "v_at_B": 0.17647378880462591,
+        "v_at_on": 0.17354644654173906,
+        "dt_finger_ms": 15.809276108484482,
+        "dt_midi_ms": 14.875412056426285,
+        "depth_at_on_mm": 7.945994049766361,
+        "lead_mm": 0.25037427599247825,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 15.809276108484482,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 16.36709852072668,
+        "finger_dt_over_implied": 0.9659180635140802
+      },
+      {
+        "trial_id": 55,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.012",
+        "shape": null,
+        "target_speed": 0.0119,
+        "how": "const",
+        "velocity": 1,
+        "v_mean_AB": 0.011624164938038082,
+        "v_at_B": 0.011646897840892283,
+        "v_at_on": 0.011646897840892283,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 270.374010586238,
+        "depth_at_on_mm": 8.099353573392026,
+        "lead_mm": 0.09701475236681238,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 270.374010586238,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 24701.060293874976,
+        "finger_dt_over_implied": 0.010945846347060719
+      },
+      {
+        "trial_id": 56,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.04->0.17 a=3",
+        "shape": null,
+        "target_speed": 0.1704,
+        "how": "kick a=3",
+        "velocity": 47,
+        "v_mean_AB": 0.16228534236547235,
+        "v_at_B": 0.168590189923357,
+        "v_at_on": 0.16446979690051503,
+        "dt_finger_ms": 18.84935874477378,
+        "dt_midi_ms": 18.42645395299769,
+        "depth_at_on_mm": 8.126071061401982,
+        "lead_mm": 0.070297264356858,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 18.84935874477378,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 21.115810827396427,
+        "finger_dt_over_implied": 0.8926656380307183
+      },
+      {
+        "trial_id": 57,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.37 a=15",
+        "shape": null,
+        "target_speed": 0.3727,
+        "how": "kick a=15",
+        "velocity": 82,
+        "v_mean_AB": 0.3486445769008658,
+        "v_at_B": 0.2647866869731328,
+        "v_at_on": 0.20317542615035075,
+        "dt_finger_ms": 9.162550813925918,
+        "dt_midi_ms": 12.524248319095932,
+        "depth_at_on_mm": 9.3891247368362,
+        "lead_mm": -1.192756411077361,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 9.162550813925918,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 7.604779563499548,
+        "finger_dt_over_implied": 1.204841078879283
+      },
+      {
+        "trial_id": 58,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.05->0.37 a=15",
+        "shape": null,
+        "target_speed": 0.3727,
+        "how": "kick a=15",
+        "velocity": 82,
+        "v_mean_AB": 0.35017282499084323,
+        "v_at_B": 0.37847152709735726,
+        "v_at_on": 0.2628472786719153,
+        "dt_finger_ms": 8.83272071951069,
+        "dt_midi_ms": 11.777837491536047,
+        "depth_at_on_mm": 9.266903678285429,
+        "lead_mm": -1.0705353525265904,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 8.83272071951069,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 7.604779563499548,
+        "finger_dt_over_implied": 1.161469658095661
+      },
+      {
+        "trial_id": 59,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.04->0.17 a=3",
+        "shape": null,
+        "target_speed": 0.1704,
+        "how": "kick a=3",
+        "velocity": 48,
+        "v_mean_AB": 0.1608012654959797,
+        "v_at_B": 0.1673738348846283,
+        "v_at_on": 0.16407805448146573,
+        "dt_finger_ms": 18.521393732953584,
+        "dt_midi_ms": 17.46788637683494,
+        "depth_at_on_mm": 7.958237834452715,
+        "lead_mm": 0.23813049130612385,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 18.521393732953584,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 20.315649420454783,
+        "finger_dt_over_implied": 0.9116811060100961
+      },
+      {
+        "trial_id": 60,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.03->0.13 a=2",
+        "shape": null,
+        "target_speed": 0.1282,
+        "how": "kick a=2",
+        "velocity": 41,
+        "v_mean_AB": 0.12031663692417827,
+        "v_at_B": 0.12449181075895951,
+        "v_at_on": 0.12497756810253771,
+        "dt_finger_ms": 26.644051507901167,
+        "dt_midi_ms": 24.072781750874128,
+        "depth_at_on_mm": 7.876689489250844,
+        "lead_mm": 0.3196788365079951,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 26.644051507901167,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 27.129522717193556,
+        "finger_dt_over_implied": 0.9821054275685905
+      },
+      {
+        "trial_id": 61,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.012",
+        "shape": null,
+        "target_speed": 0.0119,
+        "how": "const",
+        "velocity": 1,
+        "v_mean_AB": 0.011604453820332124,
+        "v_at_B": 0.011646173481685564,
+        "v_at_on": 0.011646173481685564,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 267.6133889181074,
+        "depth_at_on_mm": 8.09997434524452,
+        "lead_mm": 0.09639398051431922,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 267.6133889181074,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 24701.060293874976,
+        "finger_dt_over_implied": 0.010834085085184235
+      },
+      {
+        "trial_id": 62,
+        "phase": "s",
+        "kind": "kick",
+        "label": "kick 0.03->0.13 a=2",
+        "shape": null,
+        "target_speed": 0.1282,
+        "how": "kick a=2",
+        "velocity": 41,
+        "v_mean_AB": 0.12022014607678573,
+        "v_at_B": 0.123916388033487,
+        "v_at_on": 0.12414260514897006,
+        "dt_finger_ms": 26.55503191635944,
+        "dt_midi_ms": 24.552842161938315,
+        "depth_at_on_mm": 7.932047689014555,
+        "lead_mm": 0.2643206367442842,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 26.55503191635944,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 27.129522717193556,
+        "finger_dt_over_implied": 0.978824146417068
+      },
+      {
+        "trial_id": 63,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.013",
+        "shape": null,
+        "target_speed": 0.013,
+        "how": "const",
+        "velocity": 7,
+        "v_mean_AB": 0.012676402244232573,
+        "v_at_B": 0.012223252808187507,
+        "v_at_on": 0.012223252808187507,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 244.12651655438822,
+        "depth_at_on_mm": 8.10211657198117,
+        "lead_mm": 0.09425175377766881,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 244.12651655438822,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 695.1165008889847,
+        "finger_dt_over_implied": 0.3512023038471605
+      },
+      {
+        "trial_id": 64,
+        "phase": "s",
+        "kind": "const",
+        "label": "const v=0.013",
+        "shape": null,
+        "target_speed": 0.013,
+        "how": "const",
+        "velocity": 7,
+        "v_mean_AB": 0.012654964715304029,
+        "v_at_B": 0.01244765673005127,
+        "v_at_on": 0.01244765673005127,
+        "dt_finger_ms": NaN,
+        "dt_midi_ms": 242.989895894425,
+        "depth_at_on_mm": 8.078664886600075,
+        "lead_mm": 0.11770343915876343,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 242.989895894425,
+        "dt_source": "midi - latency",
+        "dt_implied_ms": 695.1165008889847,
+        "finger_dt_over_implied": 0.3495671525329425
+      },
+      {
+        "trial_id": 65,
+        "phase": "b2",
+        "kind": "const",
+        "label": "const v=0.020",
+        "shape": null,
+        "target_speed": 0.02,
+        "how": null,
+        "velocity": 18,
+        "v_mean_AB": 0.019967424720750918,
+        "v_at_B": 0.019536413233867875,
+        "v_at_on": 0.019487202627203166,
+        "dt_finger_ms": 163.75969111686572,
+        "dt_midi_ms": 163.39122473073076,
+        "depth_at_on_mm": 8.070852540231007,
+        "lead_mm": 0.007421441810281579,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 163.75969111686572,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 122.86678332070787,
+        "finger_dt_over_implied": 1.332823133241951
+      },
+      {
+        "trial_id": 66,
+        "phase": "b2",
+        "kind": "const",
+        "label": "const v=0.050",
+        "shape": null,
+        "target_speed": 0.05,
+        "how": null,
+        "velocity": 28,
+        "v_mean_AB": 0.048387861839251076,
+        "v_at_B": 0.04891761698367897,
+        "v_at_on": 0.0488638358436046,
+        "dt_finger_ms": 65.40240198228275,
+        "dt_midi_ms": 67.07560444920091,
+        "depth_at_on_mm": 8.1501626552885,
+        "lead_mm": -0.0718886732472123,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 65.40240198228275,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 54.61935295384441,
+        "finger_dt_over_implied": 1.1974217643616258
+      },
+      {
+        "trial_id": 67,
+        "phase": "b2",
+        "kind": "const",
+        "label": "const v=0.020",
+        "shape": null,
+        "target_speed": 0.02,
+        "how": null,
+        "velocity": 18,
+        "v_mean_AB": 0.020002501953748798,
+        "v_at_B": 0.019005707638052743,
+        "v_at_on": 0.01907434137024087,
+        "dt_finger_ms": 161.95840664295247,
+        "dt_midi_ms": 162.30891193117714,
+        "depth_at_on_mm": 8.085695423851568,
+        "lead_mm": -0.007421441810279844,
+        "stop_depth_mm": NaN,
+        "braked_before_B": false,
+        "launched": false,
+        "compressed": false,
+        "dt_ms": 161.95840664295247,
+        "dt_source": "finger crossings",
+        "dt_implied_ms": 122.86678332070787,
+        "finger_dt_over_implied": 1.3181626658216268
+      }
+    ],
+    "log_fit": {
+      "formula": "velocity = c0 + c1 * ln(dt_ms)",
+      "c0": 109.92602658065803,
+      "c1": -19.11213307156847,
+      "r2": 0.883322905831698,
+      "rms": 7.581644123591664
+    },
+    "power_fit": {
+      "formula": "velocity = k * dt_ms^b",
+      "k": 247.74224026450912,
+      "b": -0.5449931843501621,
+      "r2": 0.9688323996405771,
+      "rms": 3.9185218805170927,
+      "dt_range_ms": [
+        7.748437252303119,
+        244.12651655438816
+      ]
+    },
+    "best_fit": "power_fit",
+    "table": [
+      [
+        7.748437252303119,
+        84.0
+      ],
+      [
+        8.727364499142942,
+        77.66666666666667
+      ],
+      [
+        9.829968111087295,
+        73.6349613338344
+      ],
+      [
+        11.071873195451197,
+        69.39418069278781
+      ],
+      [
+        12.470678914805903,
+        63.75037995301146
+      ],
+      [
+        14.046207886491871,
+        58.51598629753805
+      ],
+      [
+        15.820787090934187,
+        53.95931544556459
+      ],
+      [
+        17.819564269540596,
+        49.375307765504296
+      ],
+      [
+        20.07086429588869,
+        45.86551994990911
+      ],
+      [
+        22.606590570374546,
+        43.86843069087588
+      ],
+      [
+        25.46267712652675,
+        41.74848790472501
+      ],
+      [
+        28.67959785583035,
+        33.2
+      ],
+      [
+        32.302940067337104,
+        33.05994874439953
+      ],
+      [
+        36.384050510033234,
+        32.87875050135353
+      ],
+      [
+        40.98076301281323,
+        32.75
+      ],
+      [
+        46.158218053518894,
+        31.040308308810122
+      ],
+      [
+        51.98978587124015,
+        29.98645817670364
+      ],
+      [
+        58.55810620339454,
+        28.932608044597153
+      ],
+      [
+        65.9562593818053,
+        28.0
+      ],
+      [
+        74.28908538349908,
+        26.115118315961784
+      ],
+      [
+        83.67466952862472,
+        23.8093242551003
+      ],
+      [
+        94.24601587947005,
+        23.101988099284018
+      ],
+      [
+        106.15293205448182,
+        22.394651943467736
+      ],
+      [
+        119.56415216718023,
+        21.60735194175135
+      ],
+      [
+        134.66972797434894,
+        20.145921438079814
+      ],
+      [
+        151.68372211870513,
+        18.684490934408288
+      ],
+      [
+        170.84724163226176,
+        17.33611154311463
+      ],
+      [
+        192.43185468846698,
+        15.09556171154052
+      ],
+      [
+        216.74343902225894,
+        12.855011879966392
+      ],
+      [
+        244.12651655438816,
+        7.0
+      ]
+    ],
+    "table_rms": 1.5921790143088317,
+    "residual_by_shape": {
+      "const(b)": {
+        "mean": 0.4753059292408449,
+        "std": 4.321918140938802,
+        "n": 18
+      },
+      "const(m/s)": {
+        "mean": -4.128415996310418,
+        "std": 4.874740203584838,
+        "n": 14
+      },
+      "kick 0.05->0.35 a=13": {
+        "mean": -2.4917229746980993,
+        "std": 4.691965448950306,
+        "n": 2
+      },
+      "kick 0.05->0.25 a=7": {
+        "mean": 0.12448171296514232,
+        "std": 0.06448470717194965,
+        "n": 2
+      },
+      "kick 0.04->0.15 a=2": {
+        "mean": -1.57079310552799,
+        "std": 0.10352963726176512,
+        "n": 2
+      },
+      "kick 0.05->0.45 a=22": {
+        "mean": 2.832078412540767,
+        "std": 0.0,
+        "n": 1
+      },
+      "kick 0.02->0.08 a=2": {
+        "mean": -0.9613539706113627,
+        "std": 0.4047585660035722,
+        "n": 2
+      },
+      "kick 0.05->0.40 a=17": {
+        "mean": 6.635691683118104,
+        "std": 0.05706691478921044,
+        "n": 2
+      },
+      "kick 0.05->0.30 a=9": {
+        "mean": 2.805029213676491,
+        "std": 0.22356131311079253,
+        "n": 2
+      },
+      "kick 0.05->0.19 a=4": {
+        "mean": -1.2632455869087345,
+        "std": 0.23303176094576727,
+        "n": 2
+      },
+      "kick 0.03->0.11 a=2": {
+        "mean": -4.30365940499205,
+        "std": 0.10797971913461524,
+        "n": 2
+      },
+      "kick 0.04->0.17 a=3": {
+        "mean": -2.7405404457920284,
+        "std": 0.2597027041746145,
+        "n": 2
+      },
+      "kick 0.05->0.37 a=15": {
+        "mean": 7.171331806906629,
+        "std": 0.7475240223140744,
+        "n": 2
+      },
+      "kick 0.03->0.13 a=2": {
+        "mean": -0.44325612685099713,
+        "std": 0.03779433195719406,
+        "n": 2
+      }
+    }
+  },
+  "model_for_sim": {
+    "A_mm": 4.90625,
+    "B_mm": 8.196368325758838,
+    "A_source": "pause probe",
+    "B_source": "measured",
+    "latency_ms": 0.0,
+    "noteoff_depth_mm": 5.057217906119601,
+    "velocity_from_dt": {
+      "formula": "velocity = k * dt_ms^b",
+      "k": 247.74224026450912,
+      "b": -0.5449931843501621,
+      "r2": 0.9688323996405771,
+      "rms": 3.9185218805170927,
+      "dt_range_ms": [
+        7.748437252303119,
+        244.12651655438816
+      ]
+    },
+    "velocity_from_dt_alternatives": {
+      "log_fit": {
+        "formula": "velocity = c0 + c1 * ln(dt_ms)",
+        "c0": 109.92602658065803,
+        "c1": -19.11213307156847,
+        "r2": 0.883322905831698,
+        "rms": 7.581644123591664
+      },
+      "power_fit": {
+        "formula": "velocity = k * dt_ms^b",
+        "k": 247.74224026450912,
+        "b": -0.5449931843501621,
+        "r2": 0.9688323996405771,
+        "rms": 3.9185218805170927,
+        "dt_range_ms": [
+          7.748437252303119,
+          244.12651655438816
+        ]
+      }
+    },
+    "table_dt_ms_velocity": [
+      [
+        7.748437252303119,
+        84.0
+      ],
+      [
+        8.727364499142942,
+        77.66666666666667
+      ],
+      [
+        9.829968111087295,
+        73.6349613338344
+      ],
+      [
+        11.071873195451197,
+        69.39418069278781
+      ],
+      [
+        12.470678914805903,
+        63.75037995301146
+      ],
+      [
+        14.046207886491871,
+        58.51598629753805
+      ],
+      [
+        15.820787090934187,
+        53.95931544556459
+      ],
+      [
+        17.819564269540596,
+        49.375307765504296
+      ],
+      [
+        20.07086429588869,
+        45.86551994990911
+      ],
+      [
+        22.606590570374546,
+        43.86843069087588
+      ],
+      [
+        25.46267712652675,
+        41.74848790472501
+      ],
+      [
+        28.67959785583035,
+        33.2
+      ],
+      [
+        32.302940067337104,
+        33.05994874439953
+      ],
+      [
+        36.384050510033234,
+        32.87875050135353
+      ],
+      [
+        40.98076301281323,
+        32.75
+      ],
+      [
+        46.158218053518894,
+        31.040308308810122
+      ],
+      [
+        51.98978587124015,
+        29.98645817670364
+      ],
+      [
+        58.55810620339454,
+        28.932608044597153
+      ],
+      [
+        65.9562593818053,
+        28.0
+      ],
+      [
+        74.28908538349908,
+        26.115118315961784
+      ],
+      [
+        83.67466952862472,
+        23.8093242551003
+      ],
+      [
+        94.24601587947005,
+        23.101988099284018
+      ],
+      [
+        106.15293205448182,
+        22.394651943467736
+      ],
+      [
+        119.56415216718023,
+        21.60735194175135
+      ],
+      [
+        134.66972797434894,
+        20.145921438079814
+      ],
+      [
+        151.68372211870513,
+        18.684490934408288
+      ],
+      [
+        170.84724163226176,
+        17.33611154311463
+      ],
+      [
+        192.43185468846698,
+        15.09556171154052
+      ],
+      [
+        216.74343902225894,
+        12.855011879966392
+      ],
+      [
+        244.12651655438816,
+        7.0
+      ]
+    ]
+  },
+  "speed_table": [
+    {
+      "target_speed": 0.005,
+      "n": 2,
+      "v_mean_AB": 0.0051157813603998365,
+      "velocity_median": 1.0,
+      "velocity_min": 1,
+      "velocity_max": 1,
+      "hammer_lead_mm": 0.06257580688937177,
+      "dt_ms": 650.465275723036
+    },
+    {
+      "target_speed": 0.01,
+      "n": 2,
+      "v_mean_AB": 0.009977516379159846,
+      "velocity_median": 1.0,
+      "velocity_min": 1,
+      "velocity_max": 1,
+      "hammer_lead_mm": 0.09216173975629648,
+      "dt_ms": 323.0164997257816
+    },
+    {
+      "target_speed": 0.0119,
+      "n": 2,
+      "v_mean_AB": 0.011614309379185103,
+      "velocity_median": 1.0,
+      "velocity_min": 1,
+      "velocity_max": 1,
+      "hammer_lead_mm": 0.09670436644056579,
+      "dt_ms": 268.9936997521727
+    },
+    {
+      "target_speed": 0.013,
+      "n": 2,
+      "v_mean_AB": 0.012665683479768302,
+      "velocity_median": 7.0,
+      "velocity_min": 7,
+      "velocity_max": 7,
+      "hammer_lead_mm": 0.10597759646821611,
+      "dt_ms": 243.5582062244066
+    },
+    {
+      "target_speed": 0.0141,
+      "n": 2,
+      "v_mean_AB": 0.013775507308323727,
+      "velocity_median": 12.0,
+      "velocity_min": 12,
+      "velocity_max": 12,
+      "hammer_lead_mm": 0.08234889220917578,
+      "dt_ms": 230.26377036512713
+    },
+    {
+      "target_speed": 0.02,
+      "n": 4,
+      "v_mean_AB": 0.019941080193973677,
+      "velocity_median": 18.0,
+      "velocity_min": 18,
+      "velocity_max": 18,
+      "hammer_lead_mm": 0.031876027519128595,
+      "dt_ms": 163.62725188992044
+    },
+    {
+      "target_speed": 0.04,
+      "n": 2,
+      "v_mean_AB": 0.040220463931582316,
+      "velocity_median": 24.0,
+      "velocity_min": 24,
+      "velocity_max": 24,
+      "hammer_lead_mm": 0.08836461510724081,
+      "dt_ms": 80.17559349718795
+    },
+    {
+      "target_speed": 0.05,
+      "n": 1,
+      "v_mean_AB": 0.048387861839251076,
+      "velocity_median": 28.0,
+      "velocity_min": 28,
+      "velocity_max": 28,
+      "hammer_lead_mm": -0.0718886732472123,
+      "dt_ms": 65.40240198228275
+    },
+    {
+      "target_speed": 0.08,
+      "n": 2,
+      "v_mean_AB": 0.07893904193248871,
+      "velocity_median": 32.0,
+      "velocity_min": 32,
+      "velocity_max": 32,
+      "hammer_lead_mm": 0.06488593092609726,
+      "dt_ms": 40.506128903871286
+    },
+    {
+      "target_speed": 0.1095,
+      "n": 2,
+      "v_mean_AB": 0.10752384428304373,
+      "velocity_median": 35.0,
+      "velocity_min": 35,
+      "velocity_max": 35,
+      "hammer_lead_mm": -0.09360915220153929,
+      "dt_ms": 29.317195245312178
+    },
+    {
+      "target_speed": 0.1282,
+      "n": 2,
+      "v_mean_AB": 0.12026839150048199,
+      "velocity_median": 41.0,
+      "velocity_min": 41,
+      "velocity_max": 41,
+      "hammer_lead_mm": 0.29199973662613965,
+      "dt_ms": 26.599541712130303
+    },
+    {
+      "target_speed": 0.15,
+      "n": 2,
+      "v_mean_AB": 0.1406012115535267,
+      "velocity_median": 44.0,
+      "velocity_min": 44,
+      "velocity_max": 44,
+      "hammer_lead_mm": 0.10110332295630836,
+      "dt_ms": 22.347129035551916
+    },
+    {
+      "target_speed": 0.1704,
+      "n": 2,
+      "v_mean_AB": 0.16154330393072602,
+      "velocity_median": 47.5,
+      "velocity_min": 47,
+      "velocity_max": 48,
+      "hammer_lead_mm": 0.15421387783149093,
+      "dt_ms": 18.685376238863682
+    },
+    {
+      "target_speed": 0.1936,
+      "n": 2,
+      "v_mean_AB": 0.17855196826144648,
+      "velocity_median": 53.5,
+      "velocity_min": 53,
+      "velocity_max": 54,
+      "hammer_lead_mm": 0.24545613319961,
+      "dt_ms": 15.951963418046944
+    },
+    {
+      "target_speed": 0.25,
+      "n": 2,
+      "v_mean_AB": 0.2179156822971201,
+      "velocity_median": 61.0,
+      "velocity_min": 61,
+      "velocity_max": 61,
+      "hammer_lead_mm": -0.2734899598921502,
+      "dt_ms": 13.13618266794947
+    },
+    {
+      "target_speed": 0.2958,
+      "n": 2,
+      "v_mean_AB": 0.26753666383400687,
+      "velocity_median": 69.0,
+      "velocity_min": 69,
+      "velocity_max": 69,
+      "hammer_lead_mm": -0.0026185512771014635,
+      "dt_ms": 11.264797896728851
+    },
+    {
+      "target_speed": 0.35,
+      "n": 2,
+      "v_mean_AB": 0.35335817391831975,
+      "velocity_median": 72.0,
+      "velocity_min": 69,
+      "velocity_max": 75,
+      "hammer_lead_mm": -1.2857394727588036,
+      "dt_ms": 9.082279277208727
+    },
+    {
+      "target_speed": 0.3727,
+      "n": 2,
+      "v_mean_AB": 0.3494087009458545,
+      "velocity_median": 82.0,
+      "velocity_min": 82,
+      "velocity_max": 82,
+      "hammer_lead_mm": -1.1316458818019757,
+      "dt_ms": 8.997635766718304
+    },
+    {
+      "target_speed": 0.3969,
+      "n": 2,
+      "v_mean_AB": 0.3799254128021372,
+      "velocity_median": 84.0,
+      "velocity_min": 84,
+      "velocity_max": 84,
+      "hammer_lead_mm": -1.2262676076215144,
+      "dt_ms": 8.461759511192213
+    },
+    {
+      "target_speed": 0.45,
+      "n": 1,
+      "v_mean_AB": 0.4276238361509903,
+      "velocity_median": 84.0,
+      "velocity_min": 84,
+      "velocity_max": 84,
+      "hammer_lead_mm": -1.9798355974548834,
+      "dt_ms": 7.74843725230312
+    }
+  ],
+  "velocity_map": {
+    "speed_to_velocity": [
+      [
+        0.0051157813603998365,
+        1.0
+      ],
+      [
+        0.0057305706461002375,
+        1.0
+      ],
+      [
+        0.006419242265541046,
+        1.0
+      ],
+      [
+        0.0071906750319447685,
+        1.0
+      ],
+      [
+        0.008054814770365397,
+        1.0
+      ],
+      [
+        0.009022802545889672,
+        1.0
+      ],
+      [
+        0.010107118301668914,
+        1.0
+      ],
+      [
+        0.011321741758658655,
+        1.0
+      ],
+      [
+        0.012682332651492698,
+        7.078197065219762
+      ],
+      [
+        0.014206432624212543,
+        12.499651817213234
+      ],
+      [
+        0.015913691388826347,
+        14.340497113827325
+      ],
+      [
+        0.01782612006248424,
+        16.181342410441417
+      ],
+      [
+        0.019968374949461614,
+        18.011697656572608
+      ],
+      [
+        0.022368075426656718,
+        18.98221597237802
+      ],
+      [
+        0.02505616003099412,
+        19.952734288183443
+      ],
+      [
+        0.028067285339649993,
+        20.923252603988864
+      ],
+      [
+        0.031440272785728834,
+        21.89377091979428
+      ],
+      [
+        0.03521860917003696,
+        22.8642892355997
+      ],
+      [
+        0.039451007321883794,
+        23.83480755140512
+      ],
+      [
+        0.044192034137323526,
+        26.03747637629935
+      ],
+      [
+        0.04950281409192454,
+        28.186181206051028
+      ],
+      [
+        0.05545181729822173,
+        29.113673825647165
+      ],
+      [
+        0.06211574226801337,
+        30.04116644524331
+      ],
+      [
+        0.06958050476066174,
+        30.968659064839454
+      ],
+      [
+        0.07794234546628903,
+        31.89615168443559
+      ],
+      [
+        0.08730907080485757,
+        32.97831515322035
+      ],
+      [
+        0.09780144283834284,
+        34.07998013142676
+      ],
+      [
+        0.10955473621567248,
+        36.00229257259593
+      ],
+      [
+        0.12272048222360295,
+        41.38764146827993
+      ],
+      [
+        0.13746842242899926,
+        43.56722584844077
+      ],
+      [
+        0.1539886971001749,
+        46.29269434429954
+      ],
+      [
+        0.17249429662187796,
+        51.431270784557306
+      ],
+      [
+        0.19322380750919804,
+        56.472821627786665
+      ],
+      [
+        0.21644448842383499,
+        60.74498757502155
+      ],
+      [
+        0.24245571585077857,
+        65.16131404272367
+      ],
+      [
+        0.27159284385935917,
+        69.45088348216133
+      ],
+      [
+        0.3042315277112793,
+        72.85136452011665
+      ],
+      [
+        0.34079256705846145,
+        76.25184555807196
+      ],
+      [
+        0.381747331172443,
+        84.0
+      ],
+      [
+        0.4276238361509903,
+        84.0
+      ]
+    ],
+    "velocity_to_speed": {
+      "1": 0.0051157813603998365,
+      "2": 0.012682332651492698,
+      "3": 0.012682332651492698,
+      "4": 0.012682332651492698,
+      "5": 0.012682332651492698,
+      "6": 0.012682332651492698,
+      "7": 0.012682332651492698,
+      "8": 0.014206432624212543,
+      "9": 0.014206432624212543,
+      "10": 0.014206432624212543,
+      "11": 0.014206432624212543,
+      "12": 0.014206432624212543,
+      "13": 0.015913691388826347,
+      "14": 0.015913691388826347,
+      "15": 0.01782612006248424,
+      "16": 0.01782612006248424,
+      "17": 0.019968374949461614,
+      "18": 0.019968374949461614,
+      "19": 0.02505616003099412,
+      "20": 0.028067285339649993,
+      "21": 0.031440272785728834,
+      "22": 0.03521860917003696,
+      "23": 0.039451007321883794,
+      "24": 0.044192034137323526,
+      "25": 0.044192034137323526,
+      "26": 0.044192034137323526,
+      "27": 0.04950281409192454,
+      "28": 0.04950281409192454,
+      "29": 0.05545181729822173,
+      "30": 0.06211574226801337,
+      "31": 0.07794234546628903,
+      "32": 0.08730907080485757,
+      "33": 0.09780144283834284,
+      "34": 0.09780144283834284,
+      "35": 0.10955473621567248,
+      "36": 0.10955473621567248,
+      "37": 0.12272048222360295,
+      "38": 0.12272048222360295,
+      "39": 0.12272048222360295,
+      "40": 0.12272048222360295,
+      "41": 0.12272048222360295,
+      "42": 0.13746842242899926,
+      "43": 0.13746842242899926,
+      "44": 0.1539886971001749,
+      "45": 0.1539886971001749,
+      "46": 0.1539886971001749,
+      "47": 0.17249429662187796,
+      "48": 0.17249429662187796,
+      "49": 0.17249429662187796,
+      "50": 0.17249429662187796,
+      "51": 0.17249429662187796,
+      "52": 0.19322380750919804,
+      "53": 0.19322380750919804,
+      "54": 0.19322380750919804,
+      "55": 0.19322380750919804,
+      "56": 0.19322380750919804,
+      "57": 0.21644448842383499,
+      "58": 0.21644448842383499,
+      "59": 0.21644448842383499,
+      "60": 0.21644448842383499,
+      "61": 0.24245571585077857,
+      "62": 0.24245571585077857,
+      "63": 0.24245571585077857,
+      "64": 0.24245571585077857,
+      "65": 0.24245571585077857,
+      "66": 0.27159284385935917,
+      "67": 0.27159284385935917,
+      "68": 0.27159284385935917,
+      "69": 0.27159284385935917,
+      "70": 0.3042315277112793,
+      "71": 0.3042315277112793,
+      "72": 0.3042315277112793,
+      "73": 0.34079256705846145,
+      "74": 0.34079256705846145,
+      "75": 0.34079256705846145,
+      "76": 0.34079256705846145,
+      "77": 0.381747331172443,
+      "78": 0.381747331172443,
+      "79": 0.381747331172443,
+      "80": 0.381747331172443,
+      "81": 0.381747331172443,
+      "82": 0.381747331172443,
+      "83": 0.381747331172443,
+      "84": 0.381747331172443,
+      "85": null,
+      "86": null,
+      "87": null,
+      "88": null,
+      "89": null,
+      "90": null,
+      "91": null,
+      "92": null,
+      "93": null,
+      "94": null,
+      "95": null,
+      "96": null,
+      "97": null,
+      "98": null,
+      "99": null,
+      "100": null,
+      "101": null,
+      "102": null,
+      "103": null,
+      "104": null,
+      "105": null,
+      "106": null,
+      "107": null,
+      "108": null,
+      "109": null,
+      "110": null,
+      "111": null,
+      "112": null,
+      "113": null,
+      "114": null,
+      "115": null,
+      "116": null,
+      "117": null,
+      "118": null,
+      "119": null,
+      "120": null,
+      "121": null,
+      "122": null,
+      "123": null,
+      "124": null,
+      "125": null,
+      "126": null,
+      "127": null
+    },
+    "covered_velocity": [
+      1,
+      84
+    ],
+    "covered_speed_m_s": [
+      0.0051157813603998365,
+      0.4276238361509903
+    ]
+  }
+}

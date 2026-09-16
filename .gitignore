@@ -1,0 +1,20 @@
+# experiment output (raw trials, figures, model files written by the scripts)
+data/
+*.npz
+piano_velocity_model.json
+key_layout.json
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,56 @@
+[project]
+name = "key-velocity-exp"
+version = "0.1.0"
+description = "Measure how a digital piano turns key motion into MIDI velocity with a UR robot arm, and validate the identified model in simulation"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "scikit-learn>=1.3",
+    "mido>=1.3",
+    "python-rtmidi>=1.5",
+    "ur-rtde>=1.6",
+]
+
+[project.optional-dependencies]
+# MuJoCo rigid-ball validation of the exported model (kve-sim-ball / kve-compare)
+sim = [
+    "mujoco>=3.1",
+    "dm_control>=1.0.20",
+    "pillow>=10",
+]
+dev = ["ruff>=0.5"]
+
+[project.scripts]
+# hardware checks
+kve-probe = "key_velocity_exp.probe_robot:main"
+kve-jog = "key_velocity_exp.jog_robot:main"
+kve-midi = "key_velocity_exp.midi_io:main"
+# experiments on the robot (all accept --sim for a hardware-free dry run)
+kve-test = "key_velocity_exp.real_test:main"
+kve-identify = "key_velocity_exp.identify_switches:main"
+kve-run = "key_velocity_exp.run_experiment:main"
+# analysis / export
+kve-analyze-switches = "key_velocity_exp.analyze_switches:main"
+kve-analyze = "key_velocity_exp.analyze:main"
+kve-export = "key_velocity_exp.export_piano_model:main"
+# simulation validation (needs the `sim` extra)
+kve-sim-ball = "key_velocity_exp.sim.sim_ball_press:main"
+kve-compare = "key_velocity_exp.sim.compare_sim_real:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["key_velocity_exp*"]
+
+[tool.ruff]
+line-length = 200
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501", "E731"]

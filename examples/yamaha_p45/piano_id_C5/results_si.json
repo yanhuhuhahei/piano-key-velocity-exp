@@ -1,0 +1,1417 @@
+{
+  "units": {
+    "depth": "m (below the key surface = home)",
+    "time": "s",
+    "speed": "m/s",
+    "velocity": "MIDI 1..127"
+  },
+  "A_m": 0.00490625,
+  "A_source": "pause probe",
+  "A_bracket_m": [
+    0.004875,
+    0.0049375
+  ],
+  "B_m": 0.008196368325758839,
+  "B_fit_rms_s": 0.0033396779009193826,
+  "B_check_slow_noteon_depth_m": 0.008144150112754241,
+  "noteoff_depth_m": 0.005057217906119601,
+  "latency_s": 0.0,
+  "latency_from_fast_presses_s": 0.005099028146364145,
+  "AB_distance_m": 0.003290118325758839,
+  "drift_m": {
+    "b2": -0.00011809434371755009
+  },
+  "best_fit": "power_fit",
+  "velocity_from_dt": {
+    "formula": "velocity = k * dt_s^b",
+    "k": 5.741435726862054,
+    "b": -0.5449931843501621,
+    "r2": 0.9688323996405771,
+    "rms": 3.9185218805170927,
+    "dt_range_s": [
+      0.007748437252303119,
+      0.24412651655438816
+    ]
+  },
+  "velocity_from_dt_loglinear": {
+    "formula": "velocity = c0 + c1 * ln(dt_s)",
+    "c0": -22.095911537078138,
+    "c1": -19.11213307156847,
+    "r2": 0.883322905831698,
+    "rms": 7.581644123591664
+  },
+  "dt_to_velocity_table": [
+    [
+      0.007748437252303119,
+      84.0
+    ],
+    [
+      0.008727364499142942,
+      77.66666666666667
+    ],
+    [
+      0.009829968111087295,
+      73.6349613338344
+    ],
+    [
+      0.011071873195451196,
+      69.39418069278781
+    ],
+    [
+      0.012470678914805904,
+      63.75037995301146
+    ],
+    [
+      0.014046207886491871,
+      58.51598629753805
+    ],
+    [
+      0.015820787090934187,
+      53.95931544556459
+    ],
+    [
+      0.017819564269540598,
+      49.375307765504296
+    ],
+    [
+      0.02007086429588869,
+      45.86551994990911
+    ],
+    [
+      0.022606590570374546,
+      43.86843069087588
+    ],
+    [
+      0.02546267712652675,
+      41.74848790472501
+    ],
+    [
+      0.028679597855830352,
+      33.2
+    ],
+    [
+      0.0323029400673371,
+      33.05994874439953
+    ],
+    [
+      0.03638405051003323,
+      32.87875050135353
+    ],
+    [
+      0.040980763012813226,
+      32.75
+    ],
+    [
+      0.04615821805351889,
+      31.040308308810122
+    ],
+    [
+      0.05198978587124015,
+      29.98645817670364
+    ],
+    [
+      0.058558106203394536,
+      28.932608044597153
+    ],
+    [
+      0.0659562593818053,
+      28.0
+    ],
+    [
+      0.07428908538349908,
+      26.115118315961784
+    ],
+    [
+      0.08367466952862472,
+      23.8093242551003
+    ],
+    [
+      0.09424601587947005,
+      23.101988099284018
+    ],
+    [
+      0.10615293205448183,
+      22.394651943467736
+    ],
+    [
+      0.11956415216718022,
+      21.60735194175135
+    ],
+    [
+      0.13466972797434895,
+      20.145921438079814
+    ],
+    [
+      0.15168372211870515,
+      18.684490934408288
+    ],
+    [
+      0.17084724163226175,
+      17.33611154311463
+    ],
+    [
+      0.192431854688467,
+      15.09556171154052
+    ],
+    [
+      0.21674343902225895,
+      12.855011879966392
+    ],
+    [
+      0.24412651655438816,
+      7.0
+    ]
+  ],
+  "velocity_floor_dt_s": {
+    "longest_dt_with_velocity_gt_1_s": 0.24412651655438822,
+    "shortest_dt_with_velocity_1_s": 0.2676133889181074
+  },
+  "speed_to_velocity": [
+    [
+      0.0051157813603998365,
+      1.0
+    ],
+    [
+      0.0057305706461002375,
+      1.0
+    ],
+    [
+      0.006419242265541046,
+      1.0
+    ],
+    [
+      0.0071906750319447685,
+      1.0
+    ],
+    [
+      0.008054814770365397,
+      1.0
+    ],
+    [
+      0.009022802545889672,
+      1.0
+    ],
+    [
+      0.010107118301668914,
+      1.0
+    ],
+    [
+      0.011321741758658655,
+      1.0
+    ],
+    [
+      0.012682332651492698,
+      7.078197065219762
+    ],
+    [
+      0.014206432624212543,
+      12.499651817213234
+    ],
+    [
+      0.015913691388826347,
+      14.340497113827325
+    ],
+    [
+      0.01782612006248424,
+      16.181342410441417
+    ],
+    [
+      0.019968374949461614,
+      18.011697656572608
+    ],
+    [
+      0.022368075426656718,
+      18.98221597237802
+    ],
+    [
+      0.02505616003099412,
+      19.952734288183443
+    ],
+    [
+      0.028067285339649993,
+      20.923252603988864
+    ],
+    [
+      0.031440272785728834,
+      21.89377091979428
+    ],
+    [
+      0.03521860917003696,
+      22.8642892355997
+    ],
+    [
+      0.039451007321883794,
+      23.83480755140512
+    ],
+    [
+      0.044192034137323526,
+      26.03747637629935
+    ],
+    [
+      0.04950281409192454,
+      28.186181206051028
+    ],
+    [
+      0.05545181729822173,
+      29.113673825647165
+    ],
+    [
+      0.06211574226801337,
+      30.04116644524331
+    ],
+    [
+      0.06958050476066174,
+      30.968659064839454
+    ],
+    [
+      0.07794234546628903,
+      31.89615168443559
+    ],
+    [
+      0.08730907080485757,
+      32.97831515322035
+    ],
+    [
+      0.09780144283834284,
+      34.07998013142676
+    ],
+    [
+      0.10955473621567248,
+      36.00229257259593
+    ],
+    [
+      0.12272048222360295,
+      41.38764146827993
+    ],
+    [
+      0.13746842242899926,
+      43.56722584844077
+    ],
+    [
+      0.1539886971001749,
+      46.29269434429954
+    ],
+    [
+      0.17249429662187796,
+      51.431270784557306
+    ],
+    [
+      0.19322380750919804,
+      56.472821627786665
+    ],
+    [
+      0.21644448842383499,
+      60.74498757502155
+    ],
+    [
+      0.24245571585077857,
+      65.16131404272367
+    ],
+    [
+      0.27159284385935917,
+      69.45088348216133
+    ],
+    [
+      0.3042315277112793,
+      72.85136452011665
+    ],
+    [
+      0.34079256705846145,
+      76.25184555807196
+    ],
+    [
+      0.381747331172443,
+      84.0
+    ],
+    [
+      0.4276238361509903,
+      84.0
+    ]
+  ],
+  "velocity_to_speed_m_s": {
+    "1": 0.0051157813603998365,
+    "2": 0.012682332651492698,
+    "3": 0.012682332651492698,
+    "4": 0.012682332651492698,
+    "5": 0.012682332651492698,
+    "6": 0.012682332651492698,
+    "7": 0.012682332651492698,
+    "8": 0.014206432624212543,
+    "9": 0.014206432624212543,
+    "10": 0.014206432624212543,
+    "11": 0.014206432624212543,
+    "12": 0.014206432624212543,
+    "13": 0.015913691388826347,
+    "14": 0.015913691388826347,
+    "15": 0.01782612006248424,
+    "16": 0.01782612006248424,
+    "17": 0.019968374949461614,
+    "18": 0.019968374949461614,
+    "19": 0.02505616003099412,
+    "20": 0.028067285339649993,
+    "21": 0.031440272785728834,
+    "22": 0.03521860917003696,
+    "23": 0.039451007321883794,
+    "24": 0.044192034137323526,
+    "25": 0.044192034137323526,
+    "26": 0.044192034137323526,
+    "27": 0.04950281409192454,
+    "28": 0.04950281409192454,
+    "29": 0.05545181729822173,
+    "30": 0.06211574226801337,
+    "31": 0.07794234546628903,
+    "32": 0.08730907080485757,
+    "33": 0.09780144283834284,
+    "34": 0.09780144283834284,
+    "35": 0.10955473621567248,
+    "36": 0.10955473621567248,
+    "37": 0.12272048222360295,
+    "38": 0.12272048222360295,
+    "39": 0.12272048222360295,
+    "40": 0.12272048222360295,
+    "41": 0.12272048222360295,
+    "42": 0.13746842242899926,
+    "43": 0.13746842242899926,
+    "44": 0.1539886971001749,
+    "45": 0.1539886971001749,
+    "46": 0.1539886971001749,
+    "47": 0.17249429662187796,
+    "48": 0.17249429662187796,
+    "49": 0.17249429662187796,
+    "50": 0.17249429662187796,
+    "51": 0.17249429662187796,
+    "52": 0.19322380750919804,
+    "53": 0.19322380750919804,
+    "54": 0.19322380750919804,
+    "55": 0.19322380750919804,
+    "56": 0.19322380750919804,
+    "57": 0.21644448842383499,
+    "58": 0.21644448842383499,
+    "59": 0.21644448842383499,
+    "60": 0.21644448842383499,
+    "61": 0.24245571585077857,
+    "62": 0.24245571585077857,
+    "63": 0.24245571585077857,
+    "64": 0.24245571585077857,
+    "65": 0.24245571585077857,
+    "66": 0.27159284385935917,
+    "67": 0.27159284385935917,
+    "68": 0.27159284385935917,
+    "69": 0.27159284385935917,
+    "70": 0.3042315277112793,
+    "71": 0.3042315277112793,
+    "72": 0.3042315277112793,
+    "73": 0.34079256705846145,
+    "74": 0.34079256705846145,
+    "75": 0.34079256705846145,
+    "76": 0.34079256705846145,
+    "77": 0.381747331172443,
+    "78": 0.381747331172443,
+    "79": 0.381747331172443,
+    "80": 0.381747331172443,
+    "81": 0.381747331172443,
+    "82": 0.381747331172443,
+    "83": 0.381747331172443,
+    "84": 0.381747331172443,
+    "85": null,
+    "86": null,
+    "87": null,
+    "88": null,
+    "89": null,
+    "90": null,
+    "91": null,
+    "92": null,
+    "93": null,
+    "94": null,
+    "95": null,
+    "96": null,
+    "97": null,
+    "98": null,
+    "99": null,
+    "100": null,
+    "101": null,
+    "102": null,
+    "103": null,
+    "104": null,
+    "105": null,
+    "106": null,
+    "107": null,
+    "108": null,
+    "109": null,
+    "110": null,
+    "111": null,
+    "112": null,
+    "113": null,
+    "114": null,
+    "115": null,
+    "116": null,
+    "117": null,
+    "118": null,
+    "119": null,
+    "120": null,
+    "121": null,
+    "122": null,
+    "123": null,
+    "124": null,
+    "125": null,
+    "126": null,
+    "127": null
+  },
+  "covered_velocity": [
+    1,
+    84
+  ],
+  "covered_speed_m_s": [
+    0.0051157813603998365,
+    0.4276238361509903
+  ],
+  "speed_table": [
+    {
+      "target_speed_m_s": 0.005,
+      "mean_speed_AB_m_s": 0.0051157813603998365,
+      "dt_s": 0.650465275723036,
+      "velocity_median": 1.0,
+      "velocity_min": 1,
+      "velocity_max": 1,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.01,
+      "mean_speed_AB_m_s": 0.009977516379159846,
+      "dt_s": 0.3230164997257816,
+      "velocity_median": 1.0,
+      "velocity_min": 1,
+      "velocity_max": 1,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.0119,
+      "mean_speed_AB_m_s": 0.011614309379185103,
+      "dt_s": 0.2689936997521727,
+      "velocity_median": 1.0,
+      "velocity_min": 1,
+      "velocity_max": 1,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.013,
+      "mean_speed_AB_m_s": 0.012665683479768302,
+      "dt_s": 0.2435582062244066,
+      "velocity_median": 7.0,
+      "velocity_min": 7,
+      "velocity_max": 7,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.0141,
+      "mean_speed_AB_m_s": 0.013775507308323727,
+      "dt_s": 0.23026377036512713,
+      "velocity_median": 12.0,
+      "velocity_min": 12,
+      "velocity_max": 12,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.02,
+      "mean_speed_AB_m_s": 0.019941080193973677,
+      "dt_s": 0.16362725188992044,
+      "velocity_median": 18.0,
+      "velocity_min": 18,
+      "velocity_max": 18,
+      "n": 4
+    },
+    {
+      "target_speed_m_s": 0.04,
+      "mean_speed_AB_m_s": 0.040220463931582316,
+      "dt_s": 0.08017559349718795,
+      "velocity_median": 24.0,
+      "velocity_min": 24,
+      "velocity_max": 24,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.05,
+      "mean_speed_AB_m_s": 0.048387861839251076,
+      "dt_s": 0.06540240198228275,
+      "velocity_median": 28.0,
+      "velocity_min": 28,
+      "velocity_max": 28,
+      "n": 1
+    },
+    {
+      "target_speed_m_s": 0.08,
+      "mean_speed_AB_m_s": 0.07893904193248871,
+      "dt_s": 0.040506128903871286,
+      "velocity_median": 32.0,
+      "velocity_min": 32,
+      "velocity_max": 32,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.1095,
+      "mean_speed_AB_m_s": 0.10752384428304373,
+      "dt_s": 0.029317195245312178,
+      "velocity_median": 35.0,
+      "velocity_min": 35,
+      "velocity_max": 35,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.1282,
+      "mean_speed_AB_m_s": 0.12026839150048199,
+      "dt_s": 0.026599541712130303,
+      "velocity_median": 41.0,
+      "velocity_min": 41,
+      "velocity_max": 41,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.15,
+      "mean_speed_AB_m_s": 0.1406012115535267,
+      "dt_s": 0.022347129035551916,
+      "velocity_median": 44.0,
+      "velocity_min": 44,
+      "velocity_max": 44,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.1704,
+      "mean_speed_AB_m_s": 0.16154330393072602,
+      "dt_s": 0.018685376238863682,
+      "velocity_median": 47.5,
+      "velocity_min": 47,
+      "velocity_max": 48,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.1936,
+      "mean_speed_AB_m_s": 0.17855196826144648,
+      "dt_s": 0.015951963418046944,
+      "velocity_median": 53.5,
+      "velocity_min": 53,
+      "velocity_max": 54,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.25,
+      "mean_speed_AB_m_s": 0.2179156822971201,
+      "dt_s": 0.01313618266794947,
+      "velocity_median": 61.0,
+      "velocity_min": 61,
+      "velocity_max": 61,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.2958,
+      "mean_speed_AB_m_s": 0.26753666383400687,
+      "dt_s": 0.011264797896728851,
+      "velocity_median": 69.0,
+      "velocity_min": 69,
+      "velocity_max": 69,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.35,
+      "mean_speed_AB_m_s": 0.35335817391831975,
+      "dt_s": 0.009082279277208727,
+      "velocity_median": 72.0,
+      "velocity_min": 69,
+      "velocity_max": 75,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.3727,
+      "mean_speed_AB_m_s": 0.3494087009458545,
+      "dt_s": 0.008997635766718304,
+      "velocity_median": 82.0,
+      "velocity_min": 82,
+      "velocity_max": 82,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.3969,
+      "mean_speed_AB_m_s": 0.3799254128021372,
+      "dt_s": 0.008461759511192213,
+      "velocity_median": 84.0,
+      "velocity_min": 84,
+      "velocity_max": 84,
+      "n": 2
+    },
+    {
+      "target_speed_m_s": 0.45,
+      "mean_speed_AB_m_s": 0.4276238361509903,
+      "dt_s": 0.00774843725230312,
+      "velocity_median": 84.0,
+      "velocity_min": 84,
+      "velocity_max": 84,
+      "n": 1
+    }
+  ],
+  "velocity_to_speed_full_1_127": [
+    {
+      "velocity": 1,
+      "mean_speed_AB_m_s": null,
+      "dt_s": null,
+      "source": "timeout: any dt above the floor"
+    },
+    {
+      "velocity": 2,
+      "mean_speed_AB_m_s": 0.012682332651492698,
+      "dt_s": 0.25942532940669993,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 3,
+      "mean_speed_AB_m_s": 0.012682332651492698,
+      "dt_s": 0.25942532940669993,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 4,
+      "mean_speed_AB_m_s": 0.012682332651492698,
+      "dt_s": 0.25942532940669993,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 5,
+      "mean_speed_AB_m_s": 0.012682332651492698,
+      "dt_s": 0.25942532940669993,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 6,
+      "mean_speed_AB_m_s": 0.012682332651492698,
+      "dt_s": 0.25942532940669993,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 7,
+      "mean_speed_AB_m_s": 0.012682332651492698,
+      "dt_s": 0.25942532940669993,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 8,
+      "mean_speed_AB_m_s": 0.014206432624212543,
+      "dt_s": 0.23159356136679732,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 9,
+      "mean_speed_AB_m_s": 0.014206432624212543,
+      "dt_s": 0.23159356136679732,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 10,
+      "mean_speed_AB_m_s": 0.014206432624212543,
+      "dt_s": 0.23159356136679732,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 11,
+      "mean_speed_AB_m_s": 0.014206432624212543,
+      "dt_s": 0.23159356136679732,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 12,
+      "mean_speed_AB_m_s": 0.014206432624212543,
+      "dt_s": 0.23159356136679732,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 13,
+      "mean_speed_AB_m_s": 0.015913691388826347,
+      "dt_s": 0.20674765177795051,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 14,
+      "mean_speed_AB_m_s": 0.015913691388826347,
+      "dt_s": 0.20674765177795051,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 15,
+      "mean_speed_AB_m_s": 0.01782612006248424,
+      "dt_s": 0.18456727062458309,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 16,
+      "mean_speed_AB_m_s": 0.01782612006248424,
+      "dt_s": 0.18456727062458309,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 17,
+      "mean_speed_AB_m_s": 0.019968374949461614,
+      "dt_s": 0.164766453659142,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 18,
+      "mean_speed_AB_m_s": 0.019968374949461614,
+      "dt_s": 0.164766453659142,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 19,
+      "mean_speed_AB_m_s": 0.02505616003099412,
+      "dt_s": 0.13130975862578337,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 20,
+      "mean_speed_AB_m_s": 0.028067285339649993,
+      "dt_s": 0.11722253456093833,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 21,
+      "mean_speed_AB_m_s": 0.031440272785728834,
+      "dt_s": 0.10464662149026481,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 22,
+      "mean_speed_AB_m_s": 0.03521860917003696,
+      "dt_s": 0.09341988236599595,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 23,
+      "mean_speed_AB_m_s": 0.039451007321883794,
+      "dt_s": 0.08339757458952851,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 24,
+      "mean_speed_AB_m_s": 0.044192034137323526,
+      "dt_s": 0.07445048389343283,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 25,
+      "mean_speed_AB_m_s": 0.044192034137323526,
+      "dt_s": 0.07445048389343283,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 26,
+      "mean_speed_AB_m_s": 0.044192034137323526,
+      "dt_s": 0.07445048389343283,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 27,
+      "mean_speed_AB_m_s": 0.04950281409192454,
+      "dt_s": 0.06646325842505105,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 28,
+      "mean_speed_AB_m_s": 0.04950281409192454,
+      "dt_s": 0.06646325842505105,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 29,
+      "mean_speed_AB_m_s": 0.05545181729822173,
+      "dt_s": 0.05933292155357997,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 30,
+      "mean_speed_AB_m_s": 0.06211574226801337,
+      "dt_s": 0.05296754422675703,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 31,
+      "mean_speed_AB_m_s": 0.07794234546628903,
+      "dt_s": 0.042212205779486756,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 32,
+      "mean_speed_AB_m_s": 0.08730907080485757,
+      "dt_s": 0.03768357967195075,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 33,
+      "mean_speed_AB_m_s": 0.09780144283834284,
+      "dt_s": 0.03364079537351115,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 34,
+      "mean_speed_AB_m_s": 0.09780144283834284,
+      "dt_s": 0.03364079537351115,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 35,
+      "mean_speed_AB_m_s": 0.10955473621567248,
+      "dt_s": 0.030031730616208334,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 36,
+      "mean_speed_AB_m_s": 0.10955473621567248,
+      "dt_s": 0.030031730616208334,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 37,
+      "mean_speed_AB_m_s": 0.12272048222360295,
+      "dt_s": 0.026809854933295296,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 38,
+      "mean_speed_AB_m_s": 0.12272048222360295,
+      "dt_s": 0.026809854933295296,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 39,
+      "mean_speed_AB_m_s": 0.12272048222360295,
+      "dt_s": 0.026809854933295296,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 40,
+      "mean_speed_AB_m_s": 0.12272048222360295,
+      "dt_s": 0.026809854933295296,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 41,
+      "mean_speed_AB_m_s": 0.12272048222360295,
+      "dt_s": 0.026809854933295296,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 42,
+      "mean_speed_AB_m_s": 0.13746842242899926,
+      "dt_s": 0.023933629757467715,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 43,
+      "mean_speed_AB_m_s": 0.13746842242899926,
+      "dt_s": 0.023933629757467715,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 44,
+      "mean_speed_AB_m_s": 0.1539886971001749,
+      "dt_s": 0.021365972877986653,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 45,
+      "mean_speed_AB_m_s": 0.1539886971001749,
+      "dt_s": 0.021365972877986653,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 46,
+      "mean_speed_AB_m_s": 0.1539886971001749,
+      "dt_s": 0.021365972877986653,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 47,
+      "mean_speed_AB_m_s": 0.17249429662187796,
+      "dt_s": 0.019073780352118284,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 48,
+      "mean_speed_AB_m_s": 0.17249429662187796,
+      "dt_s": 0.019073780352118284,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 49,
+      "mean_speed_AB_m_s": 0.17249429662187796,
+      "dt_s": 0.019073780352118284,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 50,
+      "mean_speed_AB_m_s": 0.17249429662187796,
+      "dt_s": 0.019073780352118284,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 51,
+      "mean_speed_AB_m_s": 0.17249429662187796,
+      "dt_s": 0.019073780352118284,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 52,
+      "mean_speed_AB_m_s": 0.19322380750919804,
+      "dt_s": 0.017027499707054573,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 53,
+      "mean_speed_AB_m_s": 0.19322380750919804,
+      "dt_s": 0.017027499707054573,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 54,
+      "mean_speed_AB_m_s": 0.19322380750919804,
+      "dt_s": 0.017027499707054573,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 55,
+      "mean_speed_AB_m_s": 0.19322380750919804,
+      "dt_s": 0.017027499707054573,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 56,
+      "mean_speed_AB_m_s": 0.19322380750919804,
+      "dt_s": 0.017027499707054573,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 57,
+      "mean_speed_AB_m_s": 0.21644448842383499,
+      "dt_s": 0.015200748929749737,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 58,
+      "mean_speed_AB_m_s": 0.21644448842383499,
+      "dt_s": 0.015200748929749737,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 59,
+      "mean_speed_AB_m_s": 0.21644448842383499,
+      "dt_s": 0.015200748929749737,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 60,
+      "mean_speed_AB_m_s": 0.21644448842383499,
+      "dt_s": 0.015200748929749737,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 61,
+      "mean_speed_AB_m_s": 0.24245571585077857,
+      "dt_s": 0.013569976332435776,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 62,
+      "mean_speed_AB_m_s": 0.24245571585077857,
+      "dt_s": 0.013569976332435776,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 63,
+      "mean_speed_AB_m_s": 0.24245571585077857,
+      "dt_s": 0.013569976332435776,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 64,
+      "mean_speed_AB_m_s": 0.24245571585077857,
+      "dt_s": 0.013569976332435776,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 65,
+      "mean_speed_AB_m_s": 0.24245571585077857,
+      "dt_s": 0.013569976332435776,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 66,
+      "mean_speed_AB_m_s": 0.27159284385935917,
+      "dt_s": 0.012114156908576664,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 67,
+      "mean_speed_AB_m_s": 0.27159284385935917,
+      "dt_s": 0.012114156908576664,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 68,
+      "mean_speed_AB_m_s": 0.27159284385935917,
+      "dt_s": 0.012114156908576664,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 69,
+      "mean_speed_AB_m_s": 0.27159284385935917,
+      "dt_s": 0.012114156908576664,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 70,
+      "mean_speed_AB_m_s": 0.3042315277112793,
+      "dt_s": 0.010814521264479909,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 71,
+      "mean_speed_AB_m_s": 0.3042315277112793,
+      "dt_s": 0.010814521264479909,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 72,
+      "mean_speed_AB_m_s": 0.3042315277112793,
+      "dt_s": 0.010814521264479909,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 73,
+      "mean_speed_AB_m_s": 0.34079256705846145,
+      "dt_s": 0.0096543136317713,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 74,
+      "mean_speed_AB_m_s": 0.34079256705846145,
+      "dt_s": 0.0096543136317713,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 75,
+      "mean_speed_AB_m_s": 0.34079256705846145,
+      "dt_s": 0.0096543136317713,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 76,
+      "mean_speed_AB_m_s": 0.34079256705846145,
+      "dt_s": 0.0096543136317713,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 77,
+      "mean_speed_AB_m_s": 0.381747331172443,
+      "dt_s": 0.008618575840868488,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 78,
+      "mean_speed_AB_m_s": 0.381747331172443,
+      "dt_s": 0.008618575840868488,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 79,
+      "mean_speed_AB_m_s": 0.381747331172443,
+      "dt_s": 0.008618575840868488,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 80,
+      "mean_speed_AB_m_s": 0.381747331172443,
+      "dt_s": 0.008618575840868488,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 81,
+      "mean_speed_AB_m_s": 0.381747331172443,
+      "dt_s": 0.008618575840868488,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 82,
+      "mean_speed_AB_m_s": 0.381747331172443,
+      "dt_s": 0.008618575840868488,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 83,
+      "mean_speed_AB_m_s": 0.381747331172443,
+      "dt_s": 0.008618575840868488,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 84,
+      "mean_speed_AB_m_s": 0.381747331172443,
+      "dt_s": 0.008618575840868488,
+      "source": "measured (isotonic map)"
+    },
+    {
+      "velocity": 85,
+      "mean_speed_AB_m_s": 0.46212387622983103,
+      "dt_s": 0.007119559267529695,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 86,
+      "mean_speed_AB_m_s": 0.47214865229867176,
+      "dt_s": 0.006968395037750899,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 87,
+      "mean_speed_AB_m_s": 0.48227122379586623,
+      "dt_s": 0.006822132782177912,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 88,
+      "mean_speed_AB_m_s": 0.4924914042167223,
+      "dt_s": 0.006680559899297274,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 89,
+      "mean_speed_AB_m_s": 0.5028090095377948,
+      "dt_s": 0.0065434752825596085,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 90,
+      "mean_speed_AB_m_s": 0.5132238581562336,
+      "dt_s": 0.006410688578622691,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 91,
+      "mean_speed_AB_m_s": 0.5237357708312746,
+      "dt_s": 0.006282019501048698,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 92,
+      "mean_speed_AB_m_s": 0.5343445706277757,
+      "dt_s": 0.006157297194754757,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 93,
+      "mean_speed_AB_m_s": 0.5450500828617048,
+      "dt_s": 0.006036359646960441,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 94,
+      "mean_speed_AB_m_s": 0.5558521350474905,
+      "dt_s": 0.005919053140774101,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 95,
+      "mean_speed_AB_m_s": 0.5667505568471554,
+      "dt_s": 0.005805231747917167,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 96,
+      "mean_speed_AB_m_s": 0.5777451800211494,
+      "dt_s": 0.005694756857406233,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 97,
+      "mean_speed_AB_m_s": 0.5888358383808144,
+      "dt_s": 0.0055874967373012365,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 98,
+      "mean_speed_AB_m_s": 0.6000223677424034,
+      "dt_s": 0.005483326126887532,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 99,
+      "mean_speed_AB_m_s": 0.6113046058825945,
+      "dt_s": 0.00538212585689356,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 100,
+      "mean_speed_AB_m_s": 0.6226823924954304,
+      "dt_s": 0.005283782495556888,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 101,
+      "mean_speed_AB_m_s": 0.6341555691506298,
+      "dt_s": 0.005188188018541777,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 102,
+      "mean_speed_AB_m_s": 0.645723979253207,
+      "dt_s": 0.005095239500883842,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 103,
+      "mean_speed_AB_m_s": 0.6573874680043541,
+      "dt_s": 0.005004838829293058,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 104,
+      "mean_speed_AB_m_s": 0.6691458823635255,
+      "dt_s": 0.004916892433287699,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 105,
+      "mean_speed_AB_m_s": 0.6809990710116859,
+      "dt_s": 0.004831311033759664,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 106,
+      "mean_speed_AB_m_s": 0.6929468843156668,
+      "dt_s": 0.0047480094076879495,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 107,
+      "mean_speed_AB_m_s": 0.7049891742935943,
+      "dt_s": 0.004666906167822461,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 108,
+      "mean_speed_AB_m_s": 0.7171257945813408,
+      "dt_s": 0.0045879235562564236,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 109,
+      "mean_speed_AB_m_s": 0.7293566003999683,
+      "dt_s": 0.0045109872508928926,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 110,
+      "mean_speed_AB_m_s": 0.7416814485241146,
+      "dt_s": 0.004436026183890544,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 111,
+      "mean_speed_AB_m_s": 0.754100197251299,
+      "dt_s": 0.0043629723712463485,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 112,
+      "mean_speed_AB_m_s": 0.7666127063721019,
+      "dt_s": 0.004291760752739033,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 113,
+      "mean_speed_AB_m_s": 0.7792188371411932,
+      "dt_s": 0.004222329041517607,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 114,
+      "mean_speed_AB_m_s": 0.7919184522491731,
+      "dt_s": 0.004154617582674561,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 115,
+      "mean_speed_AB_m_s": 0.8047114157951998,
+      "dt_s": 0.004088569220193813,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 116,
+      "mean_speed_AB_m_s": 0.8175975932603724,
+      "dt_s": 0.004024129171709862,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 117,
+      "mean_speed_AB_m_s": 0.8305768514818408,
+      "dt_s": 0.003961244910556928,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 118,
+      "mean_speed_AB_m_s": 0.8436490586276232,
+      "dt_s": 0.0038998660546257524,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 119,
+      "mean_speed_AB_m_s": 0.8568140841720961,
+      "dt_s": 0.0038399442615814883,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 120,
+      "mean_speed_AB_m_s": 0.8700717988721435,
+      "dt_s": 0.0037814331300287554,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 121,
+      "mean_speed_AB_m_s": 0.8834220747439323,
+      "dt_s": 0.0037242881062401673,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 122,
+      "mean_speed_AB_m_s": 0.8968647850403033,
+      "dt_s": 0.0036684663960922354,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 123,
+      "mean_speed_AB_m_s": 0.9103998042287452,
+      "dt_s": 0.0036139268818781187,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 124,
+      "mean_speed_AB_m_s": 0.9240270079699414,
+      "dt_s": 0.0035606300436900936,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 125,
+      "mean_speed_AB_m_s": 0.9377462730968631,
+      "dt_s": 0.003508537885086312,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 126,
+      "mean_speed_AB_m_s": 0.951557477594397,
+      "dt_s": 0.0034576138627763035,
+      "source": "extrapolated (power law)"
+    },
+    {
+      "velocity": 127,
+      "mean_speed_AB_m_s": 0.9654605005794827,
+      "dt_s": 0.003407822820078154,
+      "source": "extrapolated (power law)"
+    }
+  ],
+  "speed_for_velocity_127_m_s": 0.9654605005794827,
+  "dt_for_velocity_127_s": 0.003407822820078154,
+  "extrapolation_note": "measured up to velocity 84 (0.428 m/s); values above come from the better fit (velocity = 5.74\u00b7dt^-0.54) and carry its uncertainty"
+}
